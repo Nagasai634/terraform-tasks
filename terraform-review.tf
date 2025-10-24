@@ -26,11 +26,11 @@ resource "google_compute_subnetwork" "subnet" {
 
 locals {
   vms = {
-    "vm-subnet-1" = {
+    "vm-1" = {
       subnet = "subnet-1"
       zone   = "us-central1-a"
     }
-    "vm-subnet-2" = {
+    "vm-2" = {
       subnet = "subnet-2" 
       zone   = "us-central1-b"
     }
